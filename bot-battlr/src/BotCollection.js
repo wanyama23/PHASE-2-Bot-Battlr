@@ -11,7 +11,16 @@ function BotCollection({bots, enlistBot, deleteBot}) {
             clickEvent={enlistBot}
             deleteBot={deleteBot}
             />
-        )
+        );
     }
-    )
+    );
+    return (
+        <div className="ui four column grid">
+            <div className="row">
+                {botItem}
+            </div>
+        </div>
+    );
 }
+
+export default BotCollection
