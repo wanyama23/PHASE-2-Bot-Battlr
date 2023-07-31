@@ -14,7 +14,7 @@ function BotCollection({ bots, enlistBot, deleteBot }) {
     );
   });
   return (
-    <div>
+    <div className="bot-collection">
       <div>
         {botItem}
       </div>
