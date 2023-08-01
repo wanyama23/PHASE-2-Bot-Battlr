@@ -6,7 +6,7 @@ function BotsPage() {
   const [bots, setBots] = useState([]);
 
   function fetchData() {
-    return fetch(`http://localhost:8001/bots`)
+    return fetch(`https://battlr-p8mi.onrender.com/example`)
       .then((resp) => resp.json())
       .then((data) => {
         setBots(data);
