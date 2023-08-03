@@ -40,6 +40,6 @@ function BotsPage() {
     </div>
   );
 }
-// https://battlr-p8mi.onrender.com/example`
+// https://battlr-p8mi.onrender.com/example
 
 export default BotsPage;
