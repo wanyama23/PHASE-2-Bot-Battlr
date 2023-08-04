@@ -93,3 +93,4 @@ Run this command to get the backend started: json-server --watch db.json --port 
 Test your server by visiting this route in the browser http://localhost:8001/bots
 
 Then run npm start to run the App on the browser
+when i render this https://wanyama23.github.io/PHASE-2-Bot-Battlr/bot-battlr as deployment it only brings out the README. FILE
